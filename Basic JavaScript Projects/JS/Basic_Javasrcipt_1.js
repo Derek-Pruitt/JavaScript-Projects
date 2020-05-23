@@ -34,5 +34,7 @@ var me="Derek Pruitt"//writing a expression
 function myFunction() {//testing operator
     var sentence="Iam learning";
     sentence+=" a lot from this book!";
+    sentence=sentence.fontcolor("purple")
     document.getElementById("con") .innerHTML=sentence;
 }
+
