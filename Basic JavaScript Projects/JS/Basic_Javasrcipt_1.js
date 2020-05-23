@@ -30,3 +30,9 @@ document.write(job2);//displaying variable in color
 document.write(DreamJob);//displaying variable in color
 
 var me="Derek Pruitt"//writing a expression
+
+function myFunction() {//testing operator
+    var sentence="Iam learning";
+    sentence+=" a lot from this book!";
+    document.getElementById("con") .innerHTML=sentence;
+}
