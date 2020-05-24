@@ -1,5 +1,5 @@
 function Dic() {
-    var car= {
+    var car= {// dicitionary
         make:"ford",
         color:"red",
         doors:"two door",
@@ -10,7 +10,7 @@ function Dic() {
     document.getElementById("dictionary").innerHTML = car.sound;
 }
 function DOOM() {
-    var BooM= {
+    var BooM= {// dicitionary
         make:"chevy",
         doors:"blue",
         doors:"four door",
