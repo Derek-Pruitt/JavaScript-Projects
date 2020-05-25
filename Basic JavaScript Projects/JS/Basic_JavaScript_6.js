@@ -28,12 +28,17 @@ var boots=new Shoes(12.5,"brown");
 function shoes() {
     document.getElementById("List").innerHTML="running shoes, size "+running.Shoes_size+" that are "+running.Shoes_color;
 }
-function Hope() {
-    document.getElementById("Nest").innerHTML=Count();
-    function Count() {
-        var Starting_Point=9;
-        function Plus_one(){Starting_point+=1;}
-        Plus_one();
-        return Starting_Point;
-        }
-}
+
+//testing out code from geeks for geeks
+var up = document.getElementById('DEup'); 
+var down = document.getElementById('DEDown'); 
+up.innerHTML ="Click on the button to call nested function.";      
+function fun1(a) {   
+  fun = function fun2(b) {  
+    return a + b; 
+  } 
+  return fun; 
+} 
+function DEFun() { 
+    down.innerHTML = fun1("This is ")("For myself"); 
+} 
