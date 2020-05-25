@@ -28,7 +28,7 @@ function Time() {
 }
 function Check() {
     Name=document.getElementById("Name").value;
-    if (Name>="name") {
+    if (Name.length>=3) {
         namel="Thank you.";
     }   
     else {
