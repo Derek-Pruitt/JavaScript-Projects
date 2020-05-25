@@ -6,7 +6,7 @@ function mine() {
     document.getElementById("local").innerHTML=B;
 }
 function Mine() {
-    console.log(document.getElementById("opps").innerHTML=A);
+    console.log(document.getElementById("opps").innerHTML=B);
 }
 
 //If statements
@@ -26,7 +26,7 @@ function Time() {
         document.getElementById("Help").innerHTML="Try again tommarow.";
     }
 }
-function Check() {
+function Check() {//checking length of character input
     Name=document.getElementById("Name").value;
     if (Name.length>=3) {
         namel="Thank you.";
@@ -35,4 +35,18 @@ function Check() {
         namel="please enter your full name.";
     }
     document.getElementById("Thanks").innerHTML=namel;
+}
+//code for else if from step 144
+function Time_function() {
+    var Time=new Date().getHours();
+    if (Time<12==Time>0) {
+        Reply="it is morning time!";
+    }
+    else if (Time>12==Time<18) {
+        Reply="it is the afternoon.";
+    }
+    else {
+        Reply="it is evening time.";
+    }
+    document.getElementById("Time_of_day").innerHTML=Reply;
 }

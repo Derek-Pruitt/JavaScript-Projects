@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <script src="./JS/Basic_JavaScript_7.js" defer></script>
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <title>Document</title>
 </head>
 <body>
+    <br>
+    <br>
+    <br>
     <p id="local" onmouseover="mine()">Hello!<br></p>
     <p id="opps" onmouseover="Mine()">Opps!<br></p>
     <!--IF statements-->
     <p id="Greeting" onclick="get_Date()">click here.</p>
     <p id="Help" onclick="Time()">Hi There!</p>
-    <p>Please enter your name.</p>
-    <label for="Name">Name</label>
+    <h1>Please enter your name.</h1>
+    
     <p id="Thanks"></p>
     <input id="Name" value="">
     <input type="button" onclick="Check()" value="Submit">
-    
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click here to get the time.</button>
 </body>
 </html>
