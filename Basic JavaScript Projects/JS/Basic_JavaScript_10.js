@@ -65,3 +65,19 @@ let DandD= {
     }
 }
 document.getElementById("DD").innerHTML=DandD.What_u_need();
+// break statement
+var text="";
+var Count;
+for (X=0;X<120;X++) {
+    if (X===33) {break;}
+    text+="The number is "+X+"<br>";
+}
+document.getElementById("Numbers").innerHTML=text;
+// continue
+var text="";
+var I;
+for (I=0; I<11; I++){
+    if (I===3) {continue;}
+    text+="The number is "+I+"<br>";
+}
+document.getElementById("continue").innerHTML=text;
