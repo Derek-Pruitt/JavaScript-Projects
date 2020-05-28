@@ -23,3 +23,26 @@ function Snack_choice() {
     }
     document.getElementById("Result").innerHTML=snack_output;
 }
+
+function Tele() {
+    var A=document.getElementsByClassName("Diminsion_A");
+    A[0].innerHTML="The default time is 4 seconds.";
+}
+var c=document.getElementById("plate");
+var ctx=c.getContext("2d");
+//gradient
+var grd=ctx.createRadialGradient(75,50,5,90,60,100);
+grd.addColorStop(0,"limegreen");
+grd.addColorStop(1,"white");
+ctx.fillStyle=grd;
+ctx.fillRect(10,10,150,80);
+
+var c = document.getElementById("purple");
+var ctx = c.getContext("2d");
+
+var grd = ctx.createLinearGradient(0, 0, 170, 0);
+grd.addColorStop(0, "purple");
+grd.addColorStop(1, "white");
+
+ctx.fillStyle = grd;
+ctx.fillRect(20, 20, 150, 100);

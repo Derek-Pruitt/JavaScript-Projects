@@ -1,18 +1,28 @@
 .container {
-    margin: auto;
-    width: 600px;
-    border-radius: 15px;
+    border: 1px solid rgba(21, 236, 128, 0.89);
+    border-radius: 5px;
+    width:500px;
+    background-image: url(../images/dragon2.png);
+}
+input {
+    padding: 10px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: rgba(221, 172, 233, 0.753);
+}
+input:focus {
+    background-color: mediumaquamarine;
+}
+form {
     text-align: center;
-    background-color: rgba(240, 128, 128, 0.5);
 }
-ul {
-    text-align: left;
-    margin-left: 45%;
+label {
+    color: mediumseagreen;
 }
-body {
-    background-image: url(../images/fruit.png);
-    background-color: rgba(255, 204, 122,);
+textarea {
+    background-color: rgba(221, 172, 233, 0.753);
 }
-footer {
-    text-align: center;
+textarea:focus {
+    background-color: mediumaquamarine;
 }

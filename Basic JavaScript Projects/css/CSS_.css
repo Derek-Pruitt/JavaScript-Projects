@@ -1,0 +1,22 @@
+.container {
+    margin: auto;
+    width:fit-content;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(240, 128, 128, 0.6);
+}
+ul {
+    text-align: left;
+    margin-left: 45%;
+}
+body {
+    background-image: url(../images/fruit.png);
+    background-color: rgba(255, 204, 122,);
+}
+footer {
+    text-align: center;
+}
+
+h1,h2,h4,li {
+    color: rgb(93, 7, 133);
+}
