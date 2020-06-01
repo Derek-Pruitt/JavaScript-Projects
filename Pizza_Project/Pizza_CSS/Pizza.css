@@ -1,7 +1,9 @@
 #menuBG {
+    margin-top: 10%;
     width: 400px;
     height: 470px;
-    margin: 10px auto;
+    margin-left: 68%;
+    background-color: rgba(2, 78, 109, 0.856)
 }
 #frmMenu {
     width: 400px;
@@ -14,12 +16,17 @@
     float: right;
 }
 .left {
-    width: 200px;
+    width: auto;
+    height: 200px;
+    float: left;
+}
+.center {
+    width: auto;
     height: 200px;
     float: left;
 }
 .right {
-    width: 200px;
+    width: auto;
     height: 200px;
     float: right;
 }
@@ -39,4 +46,24 @@
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
+}
+body {
+    background-image: url(../Pizza_images/Pizza-Toppings.png);
+    background-repeat: no-repeat;
+    background-color: rgb(235, 182, 99);
+}
+h1, h3, {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(184, 11, 11);
+}
+div {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(185, 189, 183);
+    
+}
+p {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 72%;
+    color: rgb(8, 8, 8);
 }
